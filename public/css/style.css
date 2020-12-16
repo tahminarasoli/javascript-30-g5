@@ -1,10 +1,11 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
 }
-h1{
+
+h1 {
     background: #23739E;
     color: #EB8B63;
     height: 10vh;
@@ -13,16 +14,19 @@ h1{
     padding-top: 2%;
     border-bottom: 1px solid #232C9E
 }
-p{
-padding 20px;
-margin: 40px;
+
+p {
+    padding 20px;
+    margin: 40px;
 
 }
-h3{
+
+h3 {
     color: #4B57EB;
 
 }
-.container{
+
+.container {
     padding: 30px;
     margin-left: 6%;
     border: 1px solid #DDDFE7;
