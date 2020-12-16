@@ -40,7 +40,6 @@ This project contains a collection of javascript-30 project. The idea behind thi
   - [ ] _Given [search bar] when [write my favorite project name] then [I would find it easily]_
 
 ### REPO
-- 
 - One group Issue for overall project
 - One project board per each project.
 - One milstone per each project
@@ -111,6 +110,6 @@ This project contains a collection of javascript-30 project. The idea behind thi
 
 
 ### 07 end
-- create PR to assign reviewer
+- create PR and assign reviewers
 - merge each project to master branch
 - final test
