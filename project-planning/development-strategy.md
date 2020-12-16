@@ -1,4 +1,4 @@
-# Project Title
+# javascript-30-group5
 
 This project contains a collection of javascript-30 project. The idea behind this project is to apply SoC (Separation of Concerns) concept.
 
