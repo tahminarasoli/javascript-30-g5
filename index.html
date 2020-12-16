@@ -1,25 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf8" />
-    <title>your project name</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Gallery - javascript-30 </title>
+    <link href="./public/css/style.css" rel="stylesheet" />
+    <link href="./public/css/flexboxgrid.css" rel="stylesheet" />
+    <link href="./public/css/fontawesome.css" rel="stylesheet" />
+    <link href="./public/css/all.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <h1>Home Gallery - javascript-30</h1>
+        <br>
+        <p>This page contains a collection of javascript-30 project.
+        The idea behind this project is to apply SoC (Separation of Concerns) concept.<br>
+        "The most important principle in Software Engineering is the Separation of Concerns (SoC):
+             The idea that a software system must be decomposed into parts that overlap in functionality
+              as little as possible."<br>
+              <a href="https://effectivesoftwaredesign.com/2012/02/05/separation-of-concerns/">Effective Software Design</a></p>
+    </header>
+    <section id="projects">
+        <div class="container">
+            <div class="row row center-xs center-sm center-md center-lg middle-lg middle-md middle-xs middle-sm features2">
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <h3> Javascript Drum Kit</h3>
+                <img src="">
+                <a href="./JavaScript Drum Kit/index-FINISHED.html">link to first project</a>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <h3>CSS and JS clock</h3>
+                <img src="">
+                <a href="">link to second project</a>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <h3> play with CSS variable and JS</h3>
+                <img src="">
+                <a href="">link to third project</a>
+                </div>
+            </div>
+        </div>
 
-    <link href="./public/style.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <div id="user-interface" class="centered">
-      <textarea id="input"></textarea>
-      <br />
-      separator: <input id="separator-input" />
-      <br />
-      <pre id="output" class="scrollable"></pre>
-    </div>
-
-    <!-- initialize your application -->
-    <script type="module" src="src/init.js"></script>
-
-    <!-- load the review buttons for your live deployment  -->
-    <script src="./lib/review-buttons.js"></script>
-  </body>
+    </section>
+</body>
 </html>
