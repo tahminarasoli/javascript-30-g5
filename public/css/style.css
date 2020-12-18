@@ -40,6 +40,11 @@ h3 {
     box-shadow: 0 6px 20px 0 rgba(70, 29, 29, 0.3);
 }
 
+.card:hover{
+    cursor:pointer;
+    background-color: rgba(205, 206, 206, 0.274);
+}
+
 img{
     max-width: 100%;
     height: 420px;
