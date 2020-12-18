@@ -16,7 +16,7 @@ h1 {
 }
 
 p {
-    padding 20px;
+    padding: 20px;
     margin: 40px;
 
 }
@@ -32,6 +32,7 @@ h3 {
     border: 1px solid #DDDFE7;
     box-shadow: 3px 2px #E8CFC8;
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 .card{
