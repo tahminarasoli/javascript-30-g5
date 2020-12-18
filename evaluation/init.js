@@ -1,7 +1,7 @@
 if (window.location.href.indexOf('http') !== -1) {
   window.onload = () => {
     const validateContainer = document.createElement('div');
-    validateContainer.style = 'text-align:center; position: fixed; top: 0; left: 50%; transform: translate(-50%, 0);';
+    validateContainer.style = 'text-align:center; position: fixed; top: 0; left: 50%; transform: translate(-50%, 0); background-color: "#23739E";';
 
     const validateHTML = document.createElement('button');
     validateHTML.innerHTML = 'validate HTML';
