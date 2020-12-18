@@ -37,12 +37,14 @@ h3 {
 .card{
     padding: 5px;
     margin: 12px;
-    box-shadow: 0 6px 20px 0 rgba(70, 29, 29, 0.3);
+    border: 1px solid #DDDFE7;
+    box-shadow: 3px 2px #E8CFC8;
 }
 
 .card:hover{
     cursor:pointer;
-    background-color: rgba(205, 206, 206, 0.274);
+    border: 1px solid #aeafb6;
+    background-color: rgba(228, 228, 228, 0.178);
 }
 
 img{
