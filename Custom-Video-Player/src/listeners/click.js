@@ -1,5 +1,11 @@
 'use strict';
 
+/*
+  nice job brouping related handlers together, i'd just suggest a different file name
+  instead of naming this after the event you listen for
+  you could name the file control-panel (or similar) to show what part of the UI you are listening to
+*/
+
 
 import { togglePlay } from '../handlers/togglePlay.js';
 import { skip } from '../handlers/skip.js';
